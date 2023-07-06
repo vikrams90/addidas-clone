@@ -1,0 +1,231 @@
+@media (max-width:768px) {
+    
+    #navbar{
+        height: 10vh;
+        padding: 0;
+  
+    }
+    .upper-header, .lower-header{
+        display: none;
+    }
+    
+    .logo-mobile {
+        height: 36px;
+    }
+    
+    .mobile-navbar{
+   
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .mobile-navbar span{
+        display: flex;
+        gap: 20px;
+    }
+    
+    .mobile-navbar-container{
+        align-items: center;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        padding: 0 10px;
+        font-size: 20px;
+        justify-content: space-between;
+       
+    }
+
+
+    .sale-hero{
+        width: 100%;
+        padding: 0 10px;
+    }
+
+
+    .sale-promo p {
+        font-size: var(--x-small-font);
+    }
+
+    .hero {
+        width: 100%;
+        height: 60vh;
+        background-image: url(./images/mobile-hero.avif);
+    }
+
+    .h-btn-container {
+        display: none;
+    }
+
+    .mobile-hero {
+        display: flex;
+        gap: 10px;
+        color: #ffffff;
+        width: 100%;
+        font-size: var(--small-font);
+    }
+
+    .btn-hero {
+        width: 250px;
+        height: 40px;
+        color: #000;
+        background-color: #ffffff;
+        font-size: var(--normal-small-font);
+        position: relative;
+    }
+
+    .btn-hero::after {
+        content: " ";
+        border-left: 1px solid #ffffff;
+        border-bottom: 1px solid #ffffff;
+        position: absolute;
+        bottom: -5px;
+        height: 5px;
+        width: 250px;
+        left: 0px;
+    }
+
+    .btn-hero::before {
+        content: " ";
+        border-right: 1px solid #ffffff;
+        border-top: 1px solid #ffffff;
+        position: absolute;
+        bottom: -5px;
+        height: 40px;
+        width: 5px;
+        right: -5px;
+    }
+
+    .hero-container{
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .c-popular{
+        grid-template-columns: 1fr;
+        width: 100%;
+        row-gap: 20px;
+    }
+    .categories h2{
+        grid-area: auto;
+    }
+
+    .categories a{
+        font-size: var(--normal-font);
+    }
+
+    .shopping-container{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .trend-card{
+        width: 148px;
+        height: 300px;
+    }
+
+    .trend-img img {
+        width: 148px;
+        height: auto;
+        
+    
+    }
+    .trend-container-2{
+        gap: 0;
+    }
+
+    .card-container-1{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 20px;
+    }
+
+    .t-card{
+        width: 100%;
+        gap:20px;
+        height: auto;
+    }
+
+    .t-card img{
+        width: 100%;
+        height: auto;
+    }
+    video{
+        width: 100%;
+        object-fit: cover;
+        height: 85%;
+   
+    }
+    .video{
+        width: 100%;
+        height: 100%;
+     
+    }
+    .text-container {
+        display: flex;
+        flex-direction: column;
+       gap: 20px;
+      
+    }
+    .text-left-txt,.text-right-txt{
+        width: 100%;
+        gap: 0;
+    }
+    .text-section h1 {
+        font-size: 24PX;
+        font-weight: 700;
+        line-height: normal;
+        height: auto;
+    }
+
+    .text-left-txt span,
+.text-right-txt span{
+    gap: 0px;
+}
+
+  
+
+    .join-ad H1{
+      flex-direction: column;
+      gap: 30PX;
+    }
+
+    #t-card-img{
+        height: auto;
+    }
+
+    footer{
+        height: auto;
+    }
+
+    .footer-mobile{
+        width: 100%;
+        display: flex;
+        background-color: #000;
+        color: #ffffff;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;
+       
+    }
+    .footer-mobile-container{
+        width: 80%;
+        display: flex;
+        gap: 30%;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .footer-mobile-container ul{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer-mobile-container li{
+        font-size: var(--x-small-font);
+    }
+    .footer-header{
+        display: none;
+    }
+}
