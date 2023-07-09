@@ -19,6 +19,7 @@
         justify-content: center;
         width: 100%;
         height: 100%;
+        background-color: #ffffff;
     }
     
     .mobile-navbar span{
@@ -151,6 +152,15 @@
         width: 100%;
         height: auto;
     }
+
+    #seller-heading h1{
+        font-size: 28px;
+    }
+
+    #seller-heading span{
+        width: 100px;
+    }
+
     video{
         width: 100%;
         object-fit: cover;
@@ -186,9 +196,10 @@
 
   
 
-    .join-ad H1{
+    .join-ad h1{
       flex-direction: column;
       gap: 30PX;
+      text-align: center;
     }
 
     #t-card-img{
