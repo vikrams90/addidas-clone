@@ -645,7 +645,6 @@ video {
 }
 
 .btn-ad-join {
-    display: inline-flex !important;
     width: 250px;
     height: 40px;
     padding: 10px 30px;
