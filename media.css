@@ -1,7 +1,7 @@
 @media (max-width:768px) {
     
     #navbar{
-        height: 15vh;
+        height: 10vh;
         padding: 0;
   
     }
@@ -42,6 +42,10 @@
     .sale-hero{
         width: 100%;
         padding: 0 10px;
+    }
+
+    .sale-hero h1{
+        font-size: 24px;
     }
 
 
