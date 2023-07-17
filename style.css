@@ -655,7 +655,7 @@ video {
     position: relative;
 }
 
-.btn-ad::after {
+.btn-ad-join::after {
     content: " ";
     border-left: 1px solid #000;
     border-bottom: 1px solid #000;
@@ -666,7 +666,7 @@ video {
     left: 0px;
 }
 
-.btn-ad::before {
+.btn-ad-join::before {
     content: " ";
     border-right: 1px solid #000;
     border-top: 1px solid #000;
